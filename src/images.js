@@ -1,6 +1,6 @@
 import twitter from '../img/twitter.png';
 import github from '../img/github.png';
-import discord from '../img/discord-3.png';
+import discord from '../img/discord.png';
 import foundation from '../img/foundation.png';
 import opensea from '../img/opensea.png';
 
@@ -13,5 +13,3 @@ var images = {
 }
 
 export default images;
-
-// This does NOT fix the issue of images not loading after build . . .

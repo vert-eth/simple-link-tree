@@ -1,8 +1,8 @@
 import React, { useEffect, useState, require, keys, context, process } from "react";
 import './App.css';
-import imgList from './images.js';
+import imgList from './images';
 import jsonList from './links';
-import logo from './img/vert-logo-new.png';
+import logo from '../img/vert-logo-new.png';
 
 function App() {
   let linkList = [];
@@ -29,7 +29,7 @@ function App() {
           <div className="contentContainer">
             <img className="bigLogo" src={logo} />
             <h2>vert.eth</h2>
-            <p>A paragraph will go here</p>
+            <p>I'm a passionate artist and developer building in the crypto and web3 space. Get connected below!</p>
           </div>
           <div className="linkList">
             {linkList.map((a, i) => {

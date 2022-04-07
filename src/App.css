@@ -49,6 +49,7 @@ h2 {
   justify-content: center;
   color: var(--primary);
   font-size: 35px;
+  margin-bottom: 10px;
 }
 
 a {
@@ -62,6 +63,9 @@ p {
   display: flex;
   justify-content: center;
   color: var(--greyDark-3);
+  margin-left: 40px;
+  margin-right: 40px;
+  text-align: center;
 }
 
 .dataContainer {
@@ -78,6 +82,7 @@ p {
 .innerContainer {
   width: 80%;
   max-width: 450px;
+  min-width: 200px;
 }
 
 .linkContainer {
@@ -112,9 +117,10 @@ p {
   border-radius: 50%;
   display: flex;
   justify-content: center;
-  width: 20%;
-  margin-left: 40%;
-  box-shadow: var(--outShadow);
+  width: 24%;
+  margin-left: 38%;
+  margin-bottom: 25px;
+  box-shadow: var(--outShadow-large);
 }
 
 .contentContainer {
