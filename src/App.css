@@ -1,0 +1,92 @@
+:root {
+  font-family: 'Poppins', sans-serif;
+  --primary-light: #8afffd;
+  --primary: #74cdab;
+  --primary-dark: #31e34e;
+  
+  --white: #FFFFFF;
+  --greyLight-1: #E4EBF5;
+  --greyLight-1b: #f0f4f9;
+  --greyLight-2: #c8d0e7;
+  --greyLight-3: #bec8e4;
+  --greyDark: #9baacf;
+  --greyDark-2: #7c859c;
+
+  /* RADIUS */
+  --largeRadius: 20px;
+  --medRadius: 12px;
+  --smallRadius: 7px;
+
+  /* ICON SIZES */
+  --iconSize-small: 22px;
+  --iconSize-med: 30px;
+  --iconSize-large: 45px;
+  
+  /* SHADOWS */
+  --noShadow: 0rem 0rem 0rem var(--greyLight-2), 0rem 0rem 0rem var(--white);
+  --outShadow: .3rem .3rem .9rem var(--greyLight-2), -.2rem -.2rem .6rem var(--white);
+  --inShadow: inset .2rem .2rem .5rem var(--greyLight-2), inset -.2rem -.2rem .5rem var(--white);
+  --outShadow-large: .5rem .5rem 1.25rem var(--greyLight-2), -.5rem -.5rem 1.5rem var(--white);
+  --inShadow-large: inset .5rem .5rem 1.25rem var(--greyLight-2), inset -.5rem -.5rem 1.5rem var(--white);
+
+  /* GRADIENTS */
+  --buttonGradient: linear-gradient(185deg, var(--primary-light) 0%, var(--primary) 50%, var(--primary-dark) 100%);
+  --miningGradient: linear-gradient(-20deg, var(--primary-dark), var(--primary-light));
+  --headerGradient: linear-gradient(-20deg, var(--primary-dark), var(--primary));
+}
+html {
+  background: var(--greyLight-1);
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: var(--primary);
+/*   box-shadow: var(--outShadow); */
+  font-size: 35px;
+}
+
+.dataContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+/*   background-color: red; */
+  padding-top: 120px;
+}
+
+.innerContainer {
+  width: 80%;
+  max-width: 450px;
+/*   background: green; */
+}
+
+.linkContainer {
+  transition: .3s;
+  padding: 8px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  padding: 15px;
+  border-radius: var(--medRadius);
+  background-color: var(--greyLight-1);
+  box-shadow: var(--outShadow);
+}
+
+.linkContainer:hover {
+/*   transition: .3s; */
+  box-shadow: var(--noShadow);
+  background-color: var(--greyLight-1b);
+}
+
+.linkIcons {
+  height: 25px;
+  width: 25px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
