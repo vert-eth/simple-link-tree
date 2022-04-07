@@ -1,17 +1,13 @@
-import jsonList from './links';
+import twitter from '../img/twitter.png';
+import github from '../img/github.png';
+import discord from '../img/discord-2.png';
 
-const images = [];
-var index = 0;
-
-for (var l in jsonList) {
-  let link = jsonList[l];
-  let newImg = {
-    id: index,
-    src: link.icon,
-    title: link.name
-  };
-  images.push(newImg);
-  index += 1;
+var images = {
+  TWITTER: twitter,
+  GITHUB: github,
+  DISCORD: discord
 }
 
 export default images;
+
+// This does NOT fix the issue of images not loading after build . . .

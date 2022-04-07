@@ -2,13 +2,25 @@
   "0": {
     "link": "https://twitter.com/vert_eth",
     "type": "social",
-    "icon": "./src/img/twitter.png",
-    "name": "Twitter"
+    "id": "TWITTER",
+    "path": "../img/twitter.png",
+    "name": "twitter.png",
+    "text": "Twitter"
   },
   "1": {
     "link": "https://github.com/vert-eth",
     "type": "social",
-    "icon": "./src/img/github.png",
-    "name": "Github"
+    "id": "GITHUB",
+    "path": "../img/github.png",
+    "name": "github.png",
+    "text": "Github"
+  },
+  "2": {
+    "link": "https://github.com/vert-eth",
+    "type": "social",
+    "id": "DISCORD",
+    "path": "../img/discord.png",
+    "name": "discord.png",
+    "text": "Discord"
   }
 }
