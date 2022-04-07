@@ -5,7 +5,8 @@
     "id": "TWITTER",
     "path": "../img/twitter.png",
     "name": "twitter.png",
-    "text": "Twitter"
+    "text": "Twitter",
+    "show": true
   },
   "1": {
     "link": "https://github.com/vert-eth",
@@ -13,7 +14,8 @@
     "id": "GITHUB",
     "path": "../img/github.png",
     "name": "github.png",
-    "text": "Github"
+    "text": "Github",
+    "show": true
   },
   "2": {
     "link": "https://github.com/vert-eth",
@@ -21,6 +23,34 @@
     "id": "DISCORD",
     "path": "../img/discord.png",
     "name": "discord.png",
-    "text": "Discord"
+    "text": "Discord",
+    "show": false
+  },
+  "3": {
+    "link": "https://foundation.app/@vert_eth",
+    "type": "social",
+    "id": "FOUNDATION",
+    "path": "../img/foundation.png",
+    "name": "foundation.png",
+    "text": "Foundation",
+    "show": true
+  },
+  "4": {
+    "link": "https://opensea.io/vert_eth",
+    "type": "social",
+    "id": "OPENSEA",
+    "path": "../img/opensea.png",
+    "name": "opensea.png",
+    "text": "OpenSea",
+    "show": true
+  },
+  "5": {
+    "link": "https://dev.vert-eth.xyz",
+    "type": "website",
+    "id": "PROJECTS",
+    "path": "../img/projects.png",
+    "name": "projects.png",
+    "text": "Projects",
+    "show": false
   }
 }

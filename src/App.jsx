@@ -16,7 +16,8 @@ function App() {
       type: link.type,
       path: link.path,
       name: link.text,
-      image: imgList[link.id]
+      image: imgList[link.id],
+      show: link.show
     };
     linkList.push(newLink);
   }
@@ -32,15 +33,16 @@ function App() {
           </div>
           <div className="linkList">
             {linkList.map((a, i) => {
-              console.log(`  Display Img - ${imgList[i]}`)
-              return (
-                <a className={"majorLink " + a.type} href={a.url} key={i + "_link"}  target="_blank" rel="noopener noreferrer">
-                  <div className="linkContainer" key={i + "container"}>
-                    <img className="linkIcons" src={a.image} id={a.name} />
-                    {a.name}
-                  </div>
-                </a>
-              );
+              if (a.show) {
+                return (
+                  <a className={"majorLink " + a.type} href={a.url} key={i + "_link"}  target="_blank" rel="noopener noreferrer">
+                    <div className="linkContainer" key={i + "container"}>
+                      <img className="linkIcons" src={a.image} id={a.name} />
+                      {a.name}
+                    </div>
+                  </a>
+                );
+              }
             })}
             
           </div>
