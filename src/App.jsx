@@ -1,11 +1,12 @@
 import React, { useEffect, useState, require, keys, context } from "react";
 import './App.css';
+import imgList from './images.js';
 import jsonList from './links';
-import tw from './img/twitter.png';
-import git from './img/github.png';
 import logo from './img/vert-logo-new.png';
+// import tw from './img/twitter.png';
+// import git from './img/github.png';
 
-var images = [tw, git];
+// var images = [tw, git];
 
 function App() {
   
@@ -36,7 +37,7 @@ function App() {
               return (
                 <a className={"majorLink " + a.type} href={a.url} key={i + "_link"}  target="_blank" rel="noopener noreferrer">
                   <div className="linkContainer" key={i + "container"}>
-                    <img className="linkIcons" src={images[i]} />
+                    <img className="linkIcons" src={imgList[i].src} />
                     {a.name}
                   </div>
                 </a>

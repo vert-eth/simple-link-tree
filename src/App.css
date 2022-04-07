@@ -94,7 +94,7 @@ p {
 }
 
 .linkContainer:hover {
-  box-shadow: var(--noShadow);
+  box-shadow: var(--outShadow-large);
   transform: translate(0px, 2px);
 }
 
