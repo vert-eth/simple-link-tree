@@ -2,13 +2,13 @@
   "0": {
     "link": "https://twitter.com/vert_eth",
     "type": "social",
-    "icon": "src/img/twitter.png",
+    "icon": "./src/img/twitter.png",
     "name": "Twitter"
   },
   "1": {
     "link": "https://github.com/vert-eth",
     "type": "social",
-    "icon": "src/img/bitcoin.png",
+    "icon": "./src/img/github.png",
     "name": "Github"
   }
 }
