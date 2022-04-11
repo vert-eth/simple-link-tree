@@ -52,5 +52,14 @@
     "name": "projects.png",
     "text": "Projects",
     "show": false
+  },
+  "6": {
+    "link": "https://vert-eth.xyz",
+    "type": "website",
+    "id": "WEBSITE",
+    "path": "../img/website.png",
+    "name": "website.png",
+    "text": "Website",
+    "show": true
   }
 }
