@@ -2,6 +2,7 @@ import React, { useEffect, useState, require, keys, context, process } from "rea
 import './App.css';
 import imgList from './images';
 import jsonList from './links';
+import Link from './Components/Link';
 import logo from '../img/vert-logo-new.png';
 
 function App() {
@@ -35,12 +36,14 @@ function App() {
             {linkList.map((a, i) => {
               if (a.show) {
                 return (
-                  <a className={"majorLink " + a.type} href={a.url} key={i + "_link"}  target="_blank" rel="noopener noreferrer">
-                    <div className="linkContainer" key={i + "container"}>
-                      <img className="linkIcons" src={a.image} id={a.name} />
-                      {a.name}
-                    </div>
-                  </a>
+                  <Link 
+                    type={a.type}
+                    url={a.url}
+                    index={i}
+                    image={a.image}
+                    name={a.name}
+                    key={"linkComponent_" + i}
+                  />
                 );
               }
             })}
@@ -58,4 +61,8 @@ export default App;
 
 NOTES
 
+
+CHANGELOG
+ - Moved links to a custom component
+ 
 */
