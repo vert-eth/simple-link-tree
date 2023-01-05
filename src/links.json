@@ -60,6 +60,6 @@
     "path": "../img/website.png",
     "name": "website.png",
     "text": "Website",
-    "show": true
+    "show": false
   }
 }
