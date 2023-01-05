@@ -1,4 +1,5 @@
 import React, { useEffect, useState, require, keys, context, process } from "react";
+
 import './App.css';
 import imgList from './images';
 import jsonList from './links';
@@ -56,13 +57,3 @@ function App() {
 }
 
 export default App;
-
-/*
-
-NOTES
-
-
-CHANGELOG
- - Moved links to a custom component
- 
-*/

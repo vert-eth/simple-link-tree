@@ -1,6 +1,6 @@
 {
   "0": {
-    "link": "https://twitter.com/vert_eth",
+    "link": "https://twitter.com/vert_nft",
     "type": "social",
     "id": "TWITTER",
     "path": "../img/twitter.png",
@@ -60,6 +60,6 @@
     "path": "../img/website.png",
     "name": "website.png",
     "text": "Website",
-    "show": false
+    "show": true
   }
 }
