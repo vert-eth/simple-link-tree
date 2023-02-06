@@ -29,7 +29,7 @@ function App() {
       <div className="dataContainer">
         <div className="innerContainer">
           <div className="contentContainer">
-            <img className="bigLogo" src={logo} />
+            <a href="https://vert-eth.xyz"><img className="bigLogo" src={logo} /></a>
             <h2>vert.eth</h2>
             <p>I'm a passionate artist and developer building in the crypto and web3 space. Get connected below!</p>
           </div>
